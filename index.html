@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>我的主页</title>
+		<link rel="stylesheet" href="css/font-awesome-4.0.3/css/font-awesome.min.css">
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="js/jBox/jBox.css" type="text/css" rel="stylesheet" />
+		<link href="js/jBox/themes/TooltipDark.css" type="text/css" rel="stylesheet" />
+		<link href="js/jquery-ui-1.10.4/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+		<script type="text/javascript" src="js/jBox/jBox.min.js"></script>
+		<script type="text/javascript" src="js/noty/packaged/jquery.noty.packaged.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.10.4/js/jquery-ui-1.10.4.custom.min.js"></script>
+		<script type="text/javascript" src="js/home_index.js"></script>
+		<style type="text/css">
+		 /*背景*/
+		 body{
+		 background:url("pic.jpg") no-repeat center;
+	background-size:cover;
+	overflow:hidden;
+		 }
+		</style>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<div id="logo">我的主页</div>
+			<div id="search-bar">
+				<div id="search-wrapper">
+					<p id="search-engine-switch">
+						<img id="engine" title="baidu" src="img/logo_baidu.png"/>
+						<i class="fa fa-sort-asc"></i>
+					</p>
+					<ul>
+						<li value="baidu"><img src="img/logo_baidu.png"/><span>百度</span></li>
+						<li value="bing"><img src="img/logo_bing.png"/><span>必应</span></li>
+					</ul>
+					<input id="search-input" type="text"/>
+					<input id="search-button" type="button" value="搜 索"/>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div id="website-container">
+
+				<div class="website">
+					<a href="javascript:void(0);" class="new" title="添加网址">+</a>
+					<p><a href="javascript:void(0);" class="edit"><i class="fa fa-edit"></i></a><a href="javascript:void(0);" class="delete"><i class="fa fa-times"></i></a></p>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</body>
+</html>
